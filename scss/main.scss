@@ -4,7 +4,7 @@ $off-white-color: #FEFFFA;
 $orange-color: #EF8E32;
 $blue-color: #243881;
 $black-color: black;
-$gray-color: rgb(255, 250, 250);
+$gray-color: rgb(235, 230, 230);
 *{
     margin: 0;
     padding: 0;
@@ -14,7 +14,8 @@ $gray-color: rgb(255, 250, 250);
 .nav-container{
     background-color: $off-white-color;
 }
-.header{
+.header,
+.footer{
     background-color: $blue-color;
 }
 #logo{
@@ -91,7 +92,8 @@ $gray-color: rgb(255, 250, 250);
     background-color: $off-white-color!important;
 }
 .third-section, 
-.sixth-section{
+.seventh-section,
+.nine-section{
     background-color: $gray-color!important;
 }
 .third-sec-right-side{
@@ -122,4 +124,8 @@ li{
 .cardtwo:hover{
     transform: scale(1.2);
     z-index: 1;
+}
+.seventh-sec-left-side{
+    background-color: $blue-color;
+    clip-path: polygon(0 0, 75% 0, 100% 100%, 0 100%);
 }
